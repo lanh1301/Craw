@@ -1,0 +1,149 @@
+{
+  "usableSessionsCount": 3,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_aUdVgNWuLe",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "XSRF-TOKEN",
+            "value": "eyJpdiI6IjhJbU1jbEhVSDk1M0FDZ3NoNFpLbHc9PSIsInZhbHVlIjoiY0t2OVIzS0M2M0tTVHF5bFRYSTM1b1M2QVhyQUVTbGx3VFRYNjl2Z2VhbHQ1cHdRL01iTHZJSUgzQkh5MGYyWjNGTThZVU5BTlZsMFppc2swTWx1ajFJTzB6VVVHMisyeWJ5WFc4dDdtQTRoaCswNEs5SWVmVkdCaTFhS2VBSlkiLCJtYWMiOiIxOTQzY2I4NWZmNDdhZjQwZDUwYTIwYjBjMDFhNWM3MzNjMmM0MGY4MWVmZDkyNzkzOTkyNmRlMDQ0NDFlNDYwIiwidGFnIjoiIn0%3D",
+            "expires": "2023-03-14T09:08:15.000Z",
+            "maxAge": 14400,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:14.486Z",
+            "lastAccessed": "2023-03-14T05:08:14.486Z"
+          },
+          {
+            "key": "topcv_session",
+            "value": "eyJpdiI6ImJ5SGdPbGxVS2pQMmlJSGlGVmRzcVE9PSIsInZhbHVlIjoiYUkvc0V4UGljdVhFTW1mQTdUUWdVUXlSQ1FoVU1pRlFza2hZYk4xcEFuUm93K1ptdXY4N3Fic2hJanFpVXJvK0s4OEJLRmJ5eHc5bjVydFdFNXY5U3lUNzVydGJXUnV4Mk5ON0JzQlBGb3UwMUFCQVZSV1ZoWm40d05iT1FxMDAiLCJtYWMiOiIxMmE4YTUwMWY1MWQwODI5MDc2MmJiMTdlZmY3ODlkYWZiNTgzNjA3OTc4ZmRjZDkyNDc1NzhkODNkMzZjZjQ4IiwidGFnIjoiIn0%3D",
+            "expires": "2023-03-14T09:08:15.000Z",
+            "maxAge": 14400,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:14.486Z",
+            "lastAccessed": "2023-03-14T05:08:14.486Z"
+          },
+          {
+            "key": "appier",
+            "value": "%7B%22event%22%3A%22job_searched%22%2C%22payload%22%3A%7B%22searched_keyword%22%3A%22%22%2C%22job_category%22%3A%22%22%2C%22company_category%22%3A%22%22%2C%22work_location%22%3A%22%22%7D%7D",
+            "expires": "2023-03-14T05:18:15.000Z",
+            "maxAge": 600,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:14.486Z",
+            "lastAccessed": "2023-03-14T05:08:14.486Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-03-14T05:58:13.356Z",
+      "createdAt": "2023-03-14T05:08:13.356Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_voHZbeFVis",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "XSRF-TOKEN",
+            "value": "eyJpdiI6ImJLTEpRUjRlZjZIb256NjZZSHk2VFE9PSIsInZhbHVlIjoiblFTYmtaWHZ2eWtqdzdCQmVQMEFVM081LzJXc0dMUWpaUlk0bWNzWndvdWcrOWFpYVFSaWZpbWhwUDJxOFlzdjJUUDFST0ppVmJhc2d4WFFYVzJBU0lsenRGMGh1eSs1RUNKS1pIVDJjWE83ak1OejBmbDVEdWFNcmlMcDh1QWwiLCJtYWMiOiJlNmQ3OTg2MWFkM2VlMDUwNzZjZWY3YTZiZDg5NjA5NDlkZDNkNzk2NzY0OGEzZTQxZjdhNzkyZDc4ZTM3NmFhIiwidGFnIjoiIn0%3D",
+            "expires": "2023-03-14T09:08:17.000Z",
+            "maxAge": 14400,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:15.451Z",
+            "lastAccessed": "2023-03-14T05:08:15.451Z"
+          },
+          {
+            "key": "topcv_session",
+            "value": "eyJpdiI6InJ1QlhaWXVRQ1ZTUXZoalYxcjhwWXc9PSIsInZhbHVlIjoiY1piR1JBWEVXemJBb1RFM1JZQk00cldLRHJTSG1YR2J5bm5vVnJmYlNGR21zZG1IRTBZcHZ5WXJaVmNuZHJjWGJrVTJQa1V2c2pXS0JuVk9QMFI2WFpxQmRaZG1aVGd5UnNybEpaeWE2Rnh5Rjk3TE1XTDZNeVB1ejBiTzNYWUciLCJtYWMiOiIyMThmNDE2NzE3YjBmYWZhZjFiYmYyZmFlNDc1MDYyYWM0Nzk0NzIxYzAzN2FkMjNmOGNiNTFkMDA1YTUwODRlIiwidGFnIjoiIn0%3D",
+            "expires": "2023-03-14T09:08:17.000Z",
+            "maxAge": 14400,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:15.451Z",
+            "lastAccessed": "2023-03-14T05:08:15.451Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-03-14T05:58:14.664Z",
+      "createdAt": "2023-03-14T05:08:14.664Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_2EPETMN62h",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "XSRF-TOKEN",
+            "value": "eyJpdiI6IkhkSVBUM1NrRmowVU5qZWZLby9VQlE9PSIsInZhbHVlIjoidG5UWG5mdktRbWVKVFlVVENrUjFQVmR0VG1iR1V4dlNxZUorMmNna24ySGJtVFJSOVp5a3pWSUhpZnJCaUpyanFuQW1UQVFWVTFVcEtQZjMzdTA1SGptOXNHUFZqN0ZwQWtjY24xN0VhTHRjL1doTm1rejFzSGwzTjJ5eUVxaEIiLCJtYWMiOiJlZmIwMGE4NjM3ZjViMWFmZmY1YmUxNjYwMGE2Njk0NGE1OTc2YjA1ZTgzNmI4NmY5YjYxNTUzNGJlY2ViZjY5IiwidGFnIjoiIn0%3D",
+            "expires": "2023-03-14T09:08:17.000Z",
+            "maxAge": 14400,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:15.410Z",
+            "lastAccessed": "2023-03-14T05:08:15.410Z"
+          },
+          {
+            "key": "topcv_session",
+            "value": "eyJpdiI6IlR0OFJHVVI1bEhSWkRyejBDY1loNUE9PSIsInZhbHVlIjoiOGt4L3NOMjZZTEFNV2t6ZUpRZStnMVA2Tjg5M3hPVkdNSVRIL3JyNGtWVWtlZnFYQUorRU9mbjRGYm5uR1RyTExmdURVUUs1TDVBR0ducnJBNmpNVDU1c0t0T1lIMUl1VUVqY1ZoUUZIMDdYYXd4S2dZeHZiUnpOVGxwSldFeE8iLCJtYWMiOiI5MjllOTgzZmQ2NTQ1MWY1MDZkM2Q0MDg4OTA5MDUzMTEyZDMzZDQxZTgxNmYxMjQzOWI5MTgyYjFhMjIwYWRkIiwidGFnIjoiIn0%3D",
+            "expires": "2023-03-14T09:08:17.000Z",
+            "maxAge": 14400,
+            "domain": "www.topcv.vn",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2023-03-14T05:08:15.410Z",
+            "lastAccessed": "2023-03-14T05:08:15.410Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-03-14T05:58:14.679Z",
+      "createdAt": "2023-03-14T05:08:14.679Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

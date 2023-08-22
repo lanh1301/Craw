@@ -1,0 +1,276 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "employer": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "The title of the employer",
+                    "default": ""
+                },
+                "address": {
+                    "type": "string",
+                    "description": "Employer's address",
+                    "default": ""
+                },
+                "location": {
+                    "type": "array",
+                    "description": "List of locations. It must be an array",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ],
+                    "default": []
+                },
+                "email": {
+                    "type": "string",
+                    "description": "Employer email. Usually this value will be hidden on the website, not required",
+                    "default": ""
+                },
+                "logo": {
+                    "type": "string",
+                    "description": "The URL of the employer's logo",
+                    "default": ""
+                },
+                "phone": {
+                    "type": "string",
+                    "description": "Employer phone number",
+                    "default": ""
+                },
+                "website": {
+                    "type": "string",
+                    "description": "Employer website address",
+                    "default": ""
+                },
+                "category": {
+                    "type": ["string", "array"],
+                    "description": "The field the employer belongs to. Example: [\"Category 1\", \"Category 2\"]. It can be a single string or an array",
+                    "default": ""
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description of the company. It must be a string containing all HTML characters",
+                    "default": ""
+                },
+                "numberOfEmployees": {
+                    "type": "string",
+                    "description": "Company size",
+                    "default": ""
+                },
+                "sourceLink": {
+                    "type": "string",
+                    "description": "The source URL that the crawler uses to get the data"
+                },
+                "sourceBrandname": {
+                    "type": "string",
+                    "description": "The source name that the crawler uses to get the data. E.g: vieclam24h, vietnamworks, careerbuilder"
+                }
+            },
+            "required": [
+                "title",
+                "address",
+                "location",
+                "email",
+                "logo",
+                "phone",
+                "website",
+                "category",
+                "description",
+                "numberOfEmployees",
+                "sourceLink",
+                "sourceBrandname"
+            ]
+        },
+        "job": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "The title of the job"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "A description of the job"
+                },
+                "jobBenefits": {
+                    "type": "string",
+                    "description": "Benefits of the job"
+                },
+                "skills": {
+                    "type": "string",
+                    "description": "Requirements of the job"
+                },
+                "qualifications": {
+                    "type": "string",
+                    "description": "Degree requirements. E.g: Đại học, Cao đẳng, Trung cấp"
+                },
+                "experienceRequirements": {
+                    "type": "string",
+                    "description": "Experience requirements. E.g: 2 năm, 3 năm, v.v"
+                },
+                "educationRequirements": {
+                    "type": "string",
+                    "description": "Equivalent to the value of qualifications"
+                },
+                "ageRequirements": {
+                    "type": "string",
+                    "description": "Age requirements. E.g: Trên 18, Dưới 20, v.v"
+                },
+                "genderRequirements": {
+                    "type": "string",
+                    "description": "Gender requirements. E.g: Nam, Nữ"
+                },
+                "occupationalCategory": {
+                    "type": "string",
+                    "description": "Job position. E.g: Nhân viên, Quản lý, Giám đốc"
+                },
+                "industry": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ],
+                    "description": "List of industries to which the job belongs"
+                },
+                "datePosted": {
+                    "type": "string",
+                    "description": "Publication date"
+                },
+                "validThrough": {
+                    "type": "string",
+                    "description": "Job expiration date"
+                },
+                "employmentType": {
+                    "type": "string",
+                    "description": "Type of work. E.g: Full-time, part-time, intern, v.v"
+                },
+                "hiringOrganization": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "description": "Recruiting company name"
+                        },
+                        "address": {
+                            "type": "string",
+                            "description": "Company address"
+                        },
+                        "sameAs": {
+                            "type": "string",
+                            "description": "The URL to company information page"
+                        },
+                        "logo": {
+                            "type": "string",
+                            "description": "Link to company logo"
+                        },
+                        "numberOfEmployees": {
+                            "type": "string",
+                            "description": "Company size"
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "address",
+                        "sameAs",
+                        "logo",
+                        "numberOfEmployees"
+                    ]
+                },
+                "jobLocation": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "streetAddress": {
+                                    "type": "string"
+                                },
+                                "addressLocality": {
+                                    "type": "string"
+                                },
+                                "addressRegion": {
+                                    "type": "string"
+                                },
+                                "addressCountry": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "streetAddress",
+                                "addressLocality",
+                                "addressRegion",
+                                "addressCountry"
+                            ]
+                        }
+                    ]
+                },
+                "baseSalary": {
+                    "type": "object",
+                    "properties": {
+                        "currency": {
+                            "type": "string",
+                            "description": "E.g: VND, USD, v.v"
+                        },
+                        "minValue": {
+                            "type": "string"
+                        },
+                        "maxValue": {
+                            "type": "string"
+                        },
+                        "unitText": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "currency",
+                        "minValue",
+                        "maxValue",
+                        "unitText"
+                    ]
+                },
+                "totalJobOpenings": {
+                    "type": "string",
+                    "description": "Number of candidates to be recruited"
+                },
+                "sourceLink": {
+                    "type": "string",
+                    "description": "The source URL the crawler uses to get the data"
+                },
+                "sourceBrandname": {
+                    "type": "string",
+                    "description": "The source name that the crawler uses to get the data. E.g: vieclam24h, vietnamworks, careerbuilder"
+                }
+            },
+            "required": [
+                "title",
+                "description",
+                "jobBenefits",
+                "skills",
+                "qualifications",
+                "experienceRequirements",
+                "educationRequirements",
+                "ageRequirements",
+                "genderRequirements",
+                "occupationalCategory",
+                "industry",
+                "datePosted",
+                "validThrough",
+                "employmentType",
+                "hiringOrganization",
+                "jobLocation",
+                "baseSalary",
+                "totalJobOpenings",
+                "sourceLink",
+                "sourceBrandname"
+            ]
+        }
+    },
+    "required": [
+        "employer",
+        "job"
+    ]
+}
